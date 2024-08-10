@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">Monitor de Temperatura</string>
+    <string name="nome_equip">Monitor de Temperatura</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- <string name="hello_blank_fragment">Hello blank fragment</string> -->
+    <string name="monitora_btn">Monitora</string>
+    <string name="config_btn">CONFIGURAÇÃO</string>
+    <string name="nome_arquivo">DOWNLOAD</string>
+    <string name="down_btn">Download</string>
+
+    <!-- Layout Monitoramento -->
+    <string name="checkbox">Monitoramento</string>
+    <string name="checkbox1">Mostrar</string>
+    <string name="checkbox2">Gravar</string>
+    <string name="down_btn2">Download</string>down
+
+    <string name="monitora_text">Monitoramento</string>
+    <string name="sensor1_text">Sensor de Temperatura 1:</string>
+    <string name="sensor2_text">Sensor de Temperatura 2:</string>
+    <string name="sensor3_text">Sensor de Temperatura 3:</string>
+    <string name="sensor4_text">Sensor de Temperatura 4:</string>
+
+    <!-- Layout [Tela] Configuração do Equipamento -->
+    <string name="config_equip">Configuração</string>
+    <string name="spinner">Escolha quantidade de Sensores:</string>
+
+    <string-array name="itensSpinner1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="btn_num_sensores">Enviar Quant. Sensores</string>
+    <string name="quant_sensor">Selecione o Numero de Sensores</string>
+    <string name="temp_amostra">Selecione tempo de Amostra</string>
+    <string name="spinner2">Selecione o Tempo de Amostra:</string>
+
+    <string-array name="itensSpinner2">
+        <item>1s</item>
+        <item>10s</item>
+        <item>30s</item>
+        <item>1min</item>
+        <item>10min</item>
+        <item>30min</item>
+        <item>1hora</item>
+    </string-array>
+
+    <string name="btn_temp_amostra">Enviar Tempo Amostras</string>
+    <string name="btn_ler_config">Ler Configurações</string>
+    <string name="btn_fechar_config">Fechar</string>
+    <string name="btn_Monitora">AbriTelaMoniora</string>
+
+    <string name="devices">USB Devices</string>
+    <string name="Ler">USB Devices</string>
+    <string name="device_btn">Tela Testes</string>
+
+    <string name="nome_tela">DOWNLOAD</string>
+    <string name="down_nome_arquivo">Digite o nome do arquivo</string>
+
+    <string name="nome_tela_testes">Tela Testes</string>
+
+
+
+
+</resources>

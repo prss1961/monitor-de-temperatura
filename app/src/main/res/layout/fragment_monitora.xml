@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+
+    <TextView
+        android:id="@+id/monitora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/checkbox"
+        android:textColor="@color/colorSendText" />
+
+    <CheckBox
+        android:id="@+id/checkbox_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorSendText"
+        android:checked="false"
+        android:text="@string/checkbox1" />
+
+    <CheckBox
+        android:id="@+id/checkbox_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorSendText"
+        android:text="@string/checkbox2" />
+
+
+    <!-- crie um Layout Linear com orientação horizontal e propriedade WeightSum -->
+    <LinearLayout
+        android:id="@+id/primeiroLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:id="@+id/textSensor1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.4"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/sensor1_text"
+            android:textColor="@color/blackColor"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sensor1"
+            android:layout_width="5dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="0.6"
+            android:background="@color/teal_200"
+            android:gravity="center_vertical"
+            android:hint="Sensor 1"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </LinearLayout>
+    <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+    <!-- second Child Layout -->
+
+    <LinearLayout
+        android:id="@+id/segundoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.4"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="@string/sensor2_text"
+            android:textColor="@color/blackColor" />
+
+        <TextView
+            android:id="@+id/sensor2"
+            android:layout_width="5dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center_vertical"
+            android:hint="Sensor 2"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+    <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+    <!-- third Child Layout -->
+
+    <LinearLayout
+        android:id="@+id/terceiroLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.4"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="@string/sensor3_text"
+            android:textColor="@color/blackColor" />
+
+        <TextView
+            android:id="@+id/sensor3"
+            android:layout_width="5dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center_vertical"
+            android:hint="Sensor 3"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+    <!-- fourth Child Layout -->
+
+    <LinearLayout
+        android:id="@+id/quartoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.4"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="@string/sensor4_text"
+            android:textColor="@color/blackColor"
+            />
+
+        <TextView
+            android:id="@+id/sensor4"
+            android:layout_width="5dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center_vertical"
+            android:hint="Sensor 4"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+    <!-- fourth Child Layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Monitora"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/backgroud_button"
+            android:text="Monitora"
+            android:textSize="12sp"
+            android:textColor="@color/whiteColor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMonitGrava"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/backgroud_button"
+            android:text="Monit/Grava"
+            android:textColor="@color/whiteColor"
+            android:textSize="10sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnParar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/backgroud_button"
+            android:text="Parar"
+            android:textSize="12sp"
+            android:textColor="@color/whiteColor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFechar2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/backgroud_button"
+            android:text="Fechar"
+            android:textSize="12sp"
+            android:textColor="@color/whiteColor" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/receive_text"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="20dp"
+        android:scrollbars="vertical"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

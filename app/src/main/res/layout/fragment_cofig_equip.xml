@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/config_equip"
+        android:textAlignment="center"
+        android:textColor="@color/colorSendText" />
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="628dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textQuatSensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/quant_sensor"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSendText"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:entries="@array/itensSpinner1"
+            android:text="@string/spinner" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNumSensores"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/backgroud_button"
+            android:text="@string/btn_num_sensores"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textTempAmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/temp_amostra"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSendText"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner2"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:entries="@array/itensSpinner2"
+            android:text="@string/spinner2"
+            android:textDirection="ltr" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTemp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/backgroud_button"
+            android:text="@string/btn_temp_amostra"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLerConfig"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/backgroud_button"
+            android:text="@string/btn_ler_config"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/receive_text"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:scrollbars="vertical"
+            android:visibility="invisible"
+            android:textColor="@color/black" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSair"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/backgroud_button"
+            android:text="@string/btn_fechar_config"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

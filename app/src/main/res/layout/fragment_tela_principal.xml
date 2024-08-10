@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blackColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/blackColor"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/equipamento"
+        android:layout_width="211dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/equip" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_equip"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorSendText"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="5dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMonitora"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/backgroud_button"
+        android:layout_marginLeft="8dp"
+        android:text="@string/monitora_btn"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfigura"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/backgroud_button"
+        android:text="@string/config_btn"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDownload"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/backgroud_button"
+        android:text="@string/down_btn"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTelaTeste"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/backgroud_button"
+        android:text="@string/device_btn"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
